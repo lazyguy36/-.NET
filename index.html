@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let ind1 = {
+            name: 'Дуров',
+            tel: '+7956565656',
+            balance: '7000000',
+            rate: '4.8',
+            period: '5',
+            result: function(){
+                for(let i = 0; i<this.period; i++){
+                    document.write(i+':'+this.balance+'<br>');
+                }
+            }
+        },
+            ind2 = {
+                name: 'Маск',
+                tel: '+1956565656',
+                balance: '7000000',
+                rate: '5.0',
+                period: '5'
+            },
+            ind3 = {
+                name: 'Райан Гослинг',
+                tel: '+1956500056',
+                balance: '7000000',
+                rate: '4.7',
+                period: '5'
+            }
+
+            document.write(ind1.name+' '+ind1.tel+' '+ind1.balance+' '+ind1.rate+' '+ind1.period+ '<br>')
+            ind1.result();
+
+    </script>
+</body>
+
+</html>
