@@ -8,10 +8,10 @@
 <body>
     <script>
         let req = new XMLHttpRequest();
-        req.open("GET", "https://github.com/login", false);
+        req.open("GET", "https://lazyguy36.github.io/", false);
         req.send(null);
         console.log(req.status, req.statusText);
-        console.log(req.getResponseHeader('content-type'));
+        console.log(req.getResponseHeader("content-type"));
         console.log(req.responseText);
     </script>
 </body>
