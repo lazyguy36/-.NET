@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let rows = 4;
+        let columns = 7;
+        let hantNumb = 9;
+        let isHunt = (hantNumb % rows == 0) || (hantNumb % columns == 0);
+        console.log(isHunt);
+
+
+            // function GetHuntedNumber(hant) {
+        //     let isHant = false;
+        //     for (let j = 1; j < rows; j++) {
+        //         if (hant == j*columns){
+        //                 isHant = true;
+        //             };
+
+        //     }
+            // for (let i = 1; i < columns; i++) {
+            //         if (hant == i*rows){
+            //             isHant = true;
+            //         };
+            // }
+        //     return isHant;
+        // }
+        // console.log(GetHuntedNumber(hantNumb));
+    </script>
+</body>
+
+</html>
