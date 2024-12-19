@@ -1,0 +1,22 @@
+{
+    "car": {
+        "Trueno AE86": {
+            "name": "Toyota Sprinter Trueno",
+            "code": "AE86",
+            "country": "Japan",
+            "colors": {
+                "main-color": "white",
+                "minor-color": "black"
+            }
+        },
+        "Lancer Evo 4": {
+            "name": "Mitsubishi Lancer",
+            "code": "Evolution 4",
+            "country": "Japan",
+            "colors": {
+                "main-color": "gray",
+                "minor-color": ""
+            }
+        }
+    }
+}
